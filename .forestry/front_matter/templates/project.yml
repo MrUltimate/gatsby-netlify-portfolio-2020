@@ -54,7 +54,11 @@ fields:
 - name: content
   type: blocks
   label: Content
-  template_types: []
+  template_types:
+  - text
+  - image
+  - top-down-split
+  - side-split
   config:
     min: 1
     max: 
