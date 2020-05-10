@@ -1,4 +1,18 @@
 ---
 label: Side Split
 hide_body: true
-fields: []
+fields:
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
